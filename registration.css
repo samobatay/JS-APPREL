@@ -1,0 +1,245 @@
+
+body{
+	background: url( https://img.freepik.com/premium-photo/dried-grass-poppy-stems-clay-jug-white-background_1151483-29462.jpg?w=996);
+	align-content: center;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;
+}
+
+
+.header {
+    display: flex;
+    align-items: center ;
+    margin-bottom: 0px; 
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+}
+header{
+     background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  width: 300px;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: auto    ;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Cinzel Decorative", serif;
+    display: inline-block;
+}
+
+header{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.header{
+  margin-bottom: 0px;
+}
+
+.header img{
+  width: 200px;
+}
+
+/* Navbar */
+
+
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color:#e4cab5;
+  border-radius: 10px;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: skyblue;
+}
+
+ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 200px;
+  z-index: 999;
+}
+
+ul li:hover > ul.dropdown {
+  display: block;
+}
+
+ul li ul.dropdown li {
+  display: block;
+  width: 100%;
+}
+
+ul li ul.dropdown li a {
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+ul li ul.dropdown li a:hover {
+  background-color: skyblue;
+}
+
+.navbar {
+  top: 0;
+  z-index: 100;
+  margin-top: 0px;
+}
+
+.navdiv {
+display: flex;
+align-items: baseline;
+justify-content: space-evenly;
+margin-right: 0px;
+font-size: 20px;
+}
+
+ul li ul.dropdown-second {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #e4cab5;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 999;
+}
+
+ul li ul.dropdown li:hover > ul.dropdown-second {
+  display: block;
+}
+
+ul li ul.dropdown-second li {
+  display: block;
+}
+
+ul li ul.dropdown-second li a {
+  padding: 10px 15px;
+  background-color: #e4cab5;
+  text-decoration: none;
+}
+
+ul li ul.dropdown-second li a:hover {
+  background-color: skyblue;
+}
+.navdiv ul, .navdiv ul li, .navdiv ul li a {
+    font-family: "Cinzel Decorative", serif !important;
+    font-weight: 600;
+    font-style: normal;
+} background-color: darkblue;
+}
+
+
+		table {
+			margin-top: 10px;
+			border-spacing: 5px;
+			border: groove ;
+		}
+
+		td {
+			padding: 5px;
+		}
+
+		
+		button {
+			margin-top: 10px;
+			padding: 10px;
+			font-size: 15px;
+			cursor: pointer;
+			background-color: beige;
+			border: none;
+		}
+
+		/* inputs and labels are centered */
+		input {
+			width: 300px;
+			padding: 8px;
+			margin: 5px;
+		}
+
+        form input:hover{
+            border-color: black;
+        }
+
+		label .required{
+			color: red;
+		}
+
+       form button:hover{
+        background-color:sandybrown;
+       }
+        /*media queries*/
+
+        @media(max-width:1100px){
+            body{
+                width: min(600px, 100%);
+            }
+        }
+
+.error-container {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-top: 0px;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+        }
+
+       
